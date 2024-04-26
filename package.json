@@ -1,0 +1,19 @@
+{
+  "name": "mern-ip-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ping_server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.0",
+    "mongoose": "^8.3.2",
+    "ping": "^0.4.4"
+  }
+}
