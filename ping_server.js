@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 const port = process.env.PORT || 3001;
 
-mongoose.connect('mongodb+srv://shinesheray:O68HrlRwPgpuygYU@cluster1.twzt4sn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1')
+mongoose.connect('MongoUri')
 .then(() => console.log('MongoDB connected Brotha man'))
 .catch(err => console.error('Shit MongoDB connection error:', err));
 
